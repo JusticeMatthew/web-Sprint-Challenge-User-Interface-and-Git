@@ -46,6 +46,10 @@ table {
 	border-spacing: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -91,4 +95,16 @@ header nav a {
 .about-text {
     padding: 0 2% 2%;
     border-bottom: 1px dashed black;
+}
+
+.mid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mid-container .content {
+    width: 48%;
+    margin-left: 2%;
+    padding: 3% 0;
+    margin-bottom: 5%;
 }
