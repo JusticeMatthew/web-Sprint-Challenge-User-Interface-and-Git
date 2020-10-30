@@ -105,6 +105,46 @@ header nav a {
 .mid-container .content {
     width: 48%;
     margin-left: 2%;
-    padding: 3% 0;
-    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    padding: 4% 0;
+    margin-bottom: %;
+}
+
+.mid-container h2 {
+    padding-top: 4%;
+}
+
+.mid-container p {
+    padding-bottom: 4%;
+}
+
+.mid-container a {
+    border: 2px solid black;
+    padding: 2% 6%; 
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;   
+}
+
+.work-together {
+    padding: 5% 2%;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
